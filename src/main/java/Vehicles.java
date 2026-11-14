@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 public class Vehicles {
     private int vin;
     private int year;
@@ -77,7 +79,7 @@ public class Vehicles {
     @Override
     public String toString() {
         return vin + " | " + year + " | " + make + " | " + model + " | " + vehicleType + " | " + color + " | " + milesDriven + " | $" + price;
-        System.out.println(car);
+
     }
 }
 
