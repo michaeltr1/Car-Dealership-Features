@@ -20,9 +20,8 @@ public Dealership(String name,String address,String phone)
 
 
     //adding vehicles to inventory
-public void addVehicle(Vehicles vehicles){
-    return inventory;
-    }
+public void addVehicle(Vehicles vehicles) {return inventory;}
+
     Dealership dealership = new Dealership("Mike's Motors", "San Jose", "555-1234");
 
     dealership.addVehicle(new Vehicles(/* vehicle information */));
